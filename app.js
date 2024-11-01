@@ -6,7 +6,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Male', {rate:1.4});
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Male', {rate:1.5});
 }
 
 function exibirMensagemInicial() {
